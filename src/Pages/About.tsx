@@ -25,7 +25,7 @@ export function AboutPage() {
           
           <div className="text-text-secondary text-lg font-light leading-relaxed space-y-6 max-w-2xl">
             <p>
-              I'm a 7th-semester Electronics and Computer Engineering student at IOE 
+              I'm a 7th-semester Electronics,Communication and Information Engineering student at IOE 
               Purwanchal Campus, Dharan — specializing in backend systems and 
               authentication infrastructure.
             </p>
