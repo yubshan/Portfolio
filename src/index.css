@@ -1,0 +1,22 @@
+@import "@fontsource/inter";
+@import "tailwindcss";
+
+@theme {
+  --font-primary: 'Inter', sans-serif;
+  --color-main-bg: #0B0D10;
+  --color-main-cards: #16181D;
+  --color-text-primary: #F5F5F5;
+  --color-text-secondary: #9CA3AF;
+  --color-accent-primary: #3B82F6;
+  --color-accent-secondary: #10B981; /* Fixed typo */
+  --color-border-main: rgba(255, 255, 255, 0.08);
+
+}
+
+html, body, #root {
+  height: 100%;
+  background-color: var(--color-main-bg);
+  font-family: var(--font-primary);
+  scroll-behavior: smooth;
+}
+
