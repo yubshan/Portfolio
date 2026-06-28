@@ -1,6 +1,18 @@
 import { Button } from "../Components/Button";
 
 export function HeroSection() {
+    const handleContactClick = () => {
+        const contactSection = document.getElementById("contact");
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: "smooth" });
+        }
+    }
+    const handleProjectsClick = () => {
+        const contactSection = document.getElementById("projects");
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: "smooth" });
+        }
+    }
   return (
     <section>
         {/* The main section container is relative */}
@@ -34,8 +46,8 @@ export function HeroSection() {
                     </p>
                     
                     <div className="flex gap-4 mt-2">   
-                        <Button>View Projects</Button>
-                        <Button>Contact me</Button>
+                        <Button onClick={handleProjectsClick}>View Projects</Button>
+                        <Button  onClick={handleContactClick}>Contact me</Button>
                     </div>
                 </div>
 
